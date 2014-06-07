@@ -5,7 +5,6 @@ Settle HK Gazetteer Scraper
 from __future__ import division
 import urllib2
 import os
-import pandas as pd
 import json
 
 DATA_DIR = 'data/'
@@ -39,8 +38,6 @@ for source in sources:
     print source['output'] + ' already exists'
 
 print 'Completed'
-# print df.describe()
-# Read the the data, return a pandas summary
 
 
 
